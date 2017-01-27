@@ -29,6 +29,7 @@ If you download the binary files of the program you will notice that there exist
 Developers of Clips have also made a JNI project and have published it on their website. On this tutorial we will learn how to use their java libraries (which are the bridge between the C codes in the .dll files and java) to build interface for end-users.
 
 For start you should have a Java IDE such as Eclipse and the Standard Java Development Kit installed on your system.
+
 <img src="https://qjnt2a.bn1301.livefilestore.com/y3muGhQhba6oKs6_1Jzr6ifLqZFuJN989cu17QwEnwKjIuL7HswC3hT57iS0kjJVsGH3Tyc_uAOQO3Lqg1ZPMkyLuAIesI0Ir-FDf05AiuNNjziRSSlArjNs_N5qGarZVLKoJFvNg-rsm7jwStzh8IvA8G2fDrNb9NXH6_5Rh5lPBc?width=312&height=182&cropmode=none" width="312" height="182" />
 
 
@@ -54,7 +55,8 @@ CLIPSJNI64.dll
 
 3.	There is a .jar file that should be added to the build path libraries of the Java IDE.
 
-<img src="https://qtnt2a.bn1301.livefilestore.com/y3m4dTfbsciRfciqdVAm9F21kaxSesuaxRiUuUjhTNRY6dmdmn99lCn3Vyeqjdoj3nKj2XsWab4vxH5LJT9atW1v2kBTlZLkwWMVZJ4Bk1_sy9qRaq3F38CU11LhRBy9TkED4AD4HogvsCjJ9iWVqDvE4tFFWtOFOmXG-Hax51uDEE?width=302&height=73&cropmode=none" width="302" height="73" />
+<img src="https://pznt2a.bn1301.livefilestore.com/y3mOX3KIv71tfFQc7O4Enl_Za7ETgna2KBZHzyw-7DQa9m1CiQHiwXCSDDHNK8eID-wRldBLKYqYrF8jBkBa-fol_AhazTnfhV0Ei7F1GYIXK2VkqyMev7xb5esKjgT9ZVJhL4Y_mvM9oTrCfv2GUKj2N0s6aSWPFbGYa5Q8zTEyUc?width=403&height=216&cropmode=none" width="403" height="216" />
+
 
 4.	Finally a .clp file containing all rules and templates of your project should be created and be copied to the root folder of your java project. For instance I Have created a very simple rule in Clips Programming with two templates for holding my facts and I have put it in the root folder of the Java project for easier access to the file.
 
