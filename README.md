@@ -116,5 +116,11 @@ The above code searches for all the facts with name of (result) with the help of
 
 
 
+Notice!
+If you have any problem with MultifieldValue and finding facts that you have inserted into the inference engine be aware that there is somthing wrong with what you have done so far. mainly this happens when your .clp file can't be find by Java.
+
+
+
+Cheers!
 
 The End
