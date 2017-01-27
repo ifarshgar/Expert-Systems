@@ -29,7 +29,7 @@ If you download the binary files of the program you will notice that there exist
 Developers of Clips have also made a JNI project and have published it on their website. On this tutorial we will learn how to use their java libraries (which are the bridge between the C codes in the .dll files and java) to build interface for end-users.
 
 For start you should have a Java IDE such as Eclipse and the Standard Java Development Kit installed on your system.
-<img src="https://1drv.ms/i/s!AjBOWVmgd4UwiAEjKaTurq-EyfC2" >
+<img src="https://qjnt2a.bn1301.livefilestore.com/y3muGhQhba6oKs6_1Jzr6ifLqZFuJN989cu17QwEnwKjIuL7HswC3hT57iS0kjJVsGH3Tyc_uAOQO3Lqg1ZPMkyLuAIesI0Ir-FDf05AiuNNjziRSSlArjNs_N5qGarZVLKoJFvNg-rsm7jwStzh8IvA8G2fDrNb9NXH6_5Rh5lPBc?width=312&height=182&cropmode=none" width="312" height="182" />
 
 
 1.	First you should download all binary files of the Clips programming language and also the JNI libraries from the links bellow.
@@ -43,7 +43,7 @@ https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/d
 
 2.	Then create an empty Java project and copy all listed files into the project.
 
-<img src="https://1drv.ms/i/s!AjBOWVmgd4UwiAAPaXTpa_MEwjYN" >
+<img src="https://qtnt2a.bn1301.livefilestore.com/y3m4dTfbsciRfciqdVAm9F21kaxSesuaxRiUuUjhTNRY6dmdmn99lCn3Vyeqjdoj3nKj2XsWab4vxH5LJT9atW1v2kBTlZLkwWMVZJ4Bk1_sy9qRaq3F38CU11LhRBy9TkED4AD4HogvsCjJ9iWVqDvE4tFFWtOFOmXG-Hax51uDEE?width=302&height=73&cropmode=none" width="302" height="73" />
 
 CLIPSJNI.dll
 CLIPSJNI.jar
@@ -54,7 +54,7 @@ CLIPSJNI64.dll
 
 3.	There is a .jar file that should be added to the build path libraries of the Java IDE.
 
-<img src="https://1drv.ms/i/s!AjBOWVmgd4UwiAL7QxT_sFBXdOLh" >
+<img src="https://qtnt2a.bn1301.livefilestore.com/y3m4dTfbsciRfciqdVAm9F21kaxSesuaxRiUuUjhTNRY6dmdmn99lCn3Vyeqjdoj3nKj2XsWab4vxH5LJT9atW1v2kBTlZLkwWMVZJ4Bk1_sy9qRaq3F38CU11LhRBy9TkED4AD4HogvsCjJ9iWVqDvE4tFFWtOFOmXG-Hax51uDEE?width=302&height=73&cropmode=none" width="302" height="73" />
 
 4.	Finally a .clp file containing all rules and templates of your project should be created and be copied to the root folder of your java project. For instance I Have created a very simple rule in Clips Programming with two templates for holding my facts and I have put it in the root folder of the Java project for easier access to the file.
 
@@ -83,7 +83,7 @@ CLIPSJNI64.dll
 
 Here is a very simple UI have been created with only a single combo box for our fact and a button to execute the inference engine and a text area to show the results.
 
-<img src="https://1drv.ms/i/s!AjBOWVmgd4Uwh39MHL4jwVudO6QW" >
+<img src="https://pdnt2a.bn1301.livefilestore.com/y3mZ6G06UWiwhfoG6HOyKFgL34iDCipOFXsVns7Zq_UZxL6oqsOB4wumoihYskU5vU5uOrME35k8_yG_c9LlU8IwC_7HIiXHbp47_YD60rqckFiCSoXTfN1TeviGNeQL3iV_H8dSh69PFXX-I50yN3Dfg5wqwRdKzZ3GqIhXGoKjIc?width=359&height=229&cropmode=none" width="359" height="229" />
 
 
 
