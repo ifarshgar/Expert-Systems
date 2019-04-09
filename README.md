@@ -30,7 +30,7 @@ Developers of Clips have also made a JNI project and have published it on their 
 
 For start you should have a Java IDE such as Eclipse and the Standard Java Development Kit installed on your system.
 
-<img src="https://qjnt2a.bn1301.livefilestore.com/y3muGhQhba6oKs6_1Jzr6ifLqZFuJN989cu17QwEnwKjIuL7HswC3hT57iS0kjJVsGH3Tyc_uAOQO3Lqg1ZPMkyLuAIesI0Ir-FDf05AiuNNjziRSSlArjNs_N5qGarZVLKoJFvNg-rsm7jwStzh8IvA8G2fDrNb9NXH6_5Rh5lPBc?width=312&height=182&cropmode=none" width="312" height="182" />
+<img src="images/eclipse.png?width=312&height=182&cropmode=none" width="312" height="182" />
 
 
 1.	First you should download all binary files of the Clips programming language and also the JNI libraries from the links bellow.
