@@ -29,7 +29,8 @@ JNI projects:
 https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/download
   
   
-2.	Then create an empty Java project and copy all listed files into the project.
+2.	Then create an empty Java project and copy all listed files into the project.  
+
 	<img src="images/jni-files.png?width=302&height=73&cropmode=none" width="302" height="73" />
 
     - CLIPSJNI.dll
@@ -69,7 +70,7 @@ https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/d
 ~~~
   
   
-Here is a very simple UI created with only a single combo box for our fact and a button to execute the inference engine and a text area to show the results.  
+> Here is a very simple UI created with only a single combo box for our fact and a button to execute the inference engine and a text area to show the results.  
 	<img src="images/final-program.png?width=359&height=229&cropmode=none" width="359" height="229" />  
   
   
