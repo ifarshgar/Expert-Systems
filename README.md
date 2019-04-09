@@ -1,7 +1,7 @@
 # Building interface for expert-system programs written in CLIPS with Java  
 
-> Abdolrahman Farshgar
-> Website: ifarshgar.ir
+> Abdolrahman Farshgar  
+> Website: ifarshgar.ir  
 > Instagram: @ifarshgar  
 
   
@@ -10,26 +10,27 @@ It was developed at NASA's Johnson Space Center from 1985 to 1996, the 'C' Langu
 The CLIPS  programming language is a powerful tool for making all kinds of personal or industrial expert-system projects. Common programming languages have been designed and modified for solving procedural problems but, they can’t easily solve AI (Artificial Intelligence) problems so for this purpose languages like CLIPS have been created so that they can solve and conduct problems in a very close way as we humans do.
 
 ### Why building interface?
-For developing CLIPS projects programmers should either use a command based tool or an IDE that had been created to help programmers but, this environment is not user-friendly for end-users so, by creating an interface for our code we can keep the end-user away from the complications of the system behind the scene and also help them to use the program more easily.
-
-#### Let’s get serious
+For developing CLIPS projects programmers should either use a command based tool or an IDE that had been created to help programmers but, this environment is not user-friendly for end-users so, by creating an interface for our code we can keep the end-user away from the complications of the system behind the scene and also help them to use the program more easily.  
+  
+### Let’s get serious
 For creating this interface in this tutorial we are using JNI  which is a Java feature that allows Java to be called from native methods from programming languages such as C/C++ or assembly and also it allows Java to call those methods too. If you download the binary files of the CLIPS program you will notice that there exist some **.dll** files that are actually the assembled files of CLIPS. 
-Developers of CLIPS have also made a JNI project and have published it on their website. On this tutorial, we will learn how to use their java libraries (which are the bridge between the C codes in the .dll files and Java) to build an interface for end-users.
-
+Developers of CLIPS have also made a JNI project and have published it on their website. On this tutorial, we will learn how to use their java libraries (which are the bridge between the C codes in the .dll files and Java) to build an interface for end-users.  
+  
+  
 > For start, you should have a Java IDE such as Eclipse and the Standard Java Development Kit installed on your system.
-<img src="images/eclipse.png?width=312&height=182&cropmode=none" width="312" height="182" />
-
-
+	<img src="images/eclipse.png?width=312&height=182&cropmode=none" width="312" height="182" />
+  
+  
+  
 1.	First you should download all binary files of the CLIPS programming language and also the JNI libraries from the links below.
 Binary files:  
-https://sourceforge.net/projects/clipsrules/files/latest/download?source=files
-
-JNI projects:
+https://sourceforge.net/projects/clipsrules/files/latest/download?source=files  
+JNI projects:  
 https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/download
-
-
+  
+  
 2.	Then create an empty Java project and copy all listed files into the project.
-<img src="images/jni-files.png?width=302&height=73&cropmode=none" width="302" height="73" />
+	<img src="images/jni-files.png?width=302&height=73&cropmode=none" width="302" height="73" />
 
     - CLIPSJNI.dll
     - CLIPSJNI.jar
@@ -37,11 +38,12 @@ https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/d
     - CLIPSJNI64.dll
 
 3.	There is a .jar file that should be added to the build path libraries of the Java IDE.
-<img src="images/add-top-path.png?width=403&height=216&cropmode=none" width="403" height="216" />
-
-
+	<img src="images/add-to-path.png?width=403&height=216&cropmode=none" width="403" height="216" />
+  
+  
 4.	Finally, a .clp file containing all rules and templates of your project should be created and be copied to the root folder of your java project. For instance, I have created a very simple rule in CLIPS Programming with two templates for holding my facts and I have put it in the root folder of the Java project for easier access to the file.
-
+  
+  
 ~~~ CLIPS
 (deftemplate student
 	(slot study)
@@ -65,12 +67,14 @@ https://sourceforge.net/projects/clipsrules/files/CLIPS/6.30/clips_jni_050.zip/d
  	)
 )
 ~~~
-
-Here is a very simple UI created with only a single combo box for our fact and a button to execute the inference engine and a text area to show the results.
-
-?width=359&height=229&cropmode=none" width="359" height="229" />
-
-
+  
+  
+Here is a very simple UI created with only a single combo box for our fact and a button to execute the inference engine and a text area to show the results.  
+	<img src="images/final-program.png?width=359&height=229&cropmode=none" width="359" height="229" />  
+  
+  
+  
+  
 ## Java codes
 
 First we should define an instance of CLIPS jni library:
